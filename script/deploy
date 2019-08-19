@@ -1,0 +1,7 @@
+ssh ec2-user@18.222.212.177
+ cd ~/node-jenkins
+ git pull
+ npm install
+ pm2 restart all
+ exit
+EOF
