@@ -6,4 +6,3 @@ ssh -T ec2-user@18.222.212.177
  npm install
  pm2 restart all
  exit
-EOF
