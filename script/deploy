@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh ec2-user@18.222.212.177
+ssh -t ec2-user@18.222.212.177
  cd ~/node-jenkins
  git pull
  npm install
