@@ -2,7 +2,7 @@
 
 ssh -tt ec2-user@18.222.212.177
  cd ~/node-jenkins
- git pull
+ git pull origin master
  npm install
  pm2 restart all
  exit
